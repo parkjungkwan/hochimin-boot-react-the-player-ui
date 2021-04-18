@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<meta charset="utf-8" />
+	<title>Checkbox & Radio | Zircos - Responsive Bootstrap 4 Admin Dashboard</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta content="Responsive bootstrap 4 admin template" name="description" />
+	<meta content="Coderthemes" name="author" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<!-- App favicon -->
+	<link rel="shortcut icon" href="assets/images/favicon.ico">
+
+	<!-- App css -->
+	<link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" id="bootstrap-stylesheet" />
+	<link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+	<link href="assets/css/app.min.css" rel="stylesheet" type="text/css" id="app-stylesheet" />
+
+</head>
+
+<body>
+
+	<!-- Begin page -->
+	<div id="wrapper">
+
+		@@include('./partials/topbar.html')
+
+		@@include('./partials/left-sidebar.html')
+
+		<!-- ============================================================== -->
+		<!-- Start Page Content here -->
+		<!-- ============================================================== -->
+
+		<div class="content-page">
+			<div class="content">
+
+				<!-- Start Content-->
+				<div class="container-fluid">
+
+					<!-- start page title -->
+					<div class="row">
+						<div class="page-title-box">
+							<h4 class="page-title">Checkbox & Radio</h4>
+						</div>
+					</div>
+					<!-- end page title -->
+
+					<div class="row">
+						<div class="col-md-4">
+							<div class="card-box">
+
+								<h4 class="header-title">Basic</h4>
+
+								<span class="checkbox">
+									<input id="checkbox2" type="checkbox" checked>
+									<label for="checkbox2">
+										Default
+									</label>
+								</span>
+<xmp>
+<span class="checkbox">
+  <input id="chk" type="checkbox" checked>
+  <label for="chk">Default</label>
+</span>
+</xmp>
+								<p class="sub-header mt-3">Checkboxes without label text <code>.checkbox-single</code></p>
+								<span class="checkbox checkbox-single">
+									<input type="checkbox" id="singleCheckbox2" checked>
+									<label></label>
+                </span>
+<xmp>
+  <span class="checkbox checkbox-single">
+    <input id="chk" type="checkbox" checked>
+    <label for="chk">Default</label>
+  </span>
+</xmp>
+                  
+
+								<p class="sub-header mt-3">Inline checkboxes</p>
+                <div class="form-check-inline">
+                  <span class="checkbox">
+                    <input type="checkbox" id="inlinechk1">
+                    <label for="inlinechk1"> Inline One </label>
+                  </span>
+                  <span class="checkbox">
+                    <input type="checkbox" id="inlinechk2" checked>
+                    <label for="inlinechk2"> Inline Two </label>
+                  </span>
+                  <span class="checkbox">
+                    <input type="checkbox" id="inlinechk3">
+                    <label for="inlinechk3"> Inline Three </label>
+                  </span>
+                </div>
+<xmp>
+<div class="form-check-inline">
+  <span class="checkbox">
+    <input id="chk" type="checkbox" checked>
+    <label for="chk">Default</label>
+  </span>
+  <span class="checkbox">
+    <input id="chk" type="checkbox" checked>
+    <label for="chk">Default</label>
+  </span>
+  <span class="checkbox">
+    <input id="chk" type="checkbox" checked>
+    <label for="chk">Default</label>
+  </span>
+</div>
+</xmp>
+              </div>
+						</div>
+						<!-- end col -->
+
+						<div class="col-md-4">
+							<div class="card-box">
+
+								<h4 class="header-title">Disabled</h4>
+
+								<p class="sub-header">
+									Disabled state also supported.
+								</p>
+
+								<span class="checkbox">
+									<input id="checkbox9" type="checkbox" disabled>
+									<label for="checkbox9">
+										Can't check this
+									</label>
+								</span>
+								<span class="checkbox">
+									<input id="checkbox10" type="checkbox" disabled checked>
+									<label for="checkbox10">
+										This too
+									</label>
+								</span>
+<xmp>
+  <span class="checkbox">
+    <input id="checkbox9" type="checkbox" disabled>
+    <label for="checkbox9">
+      Can't check this
+    </label>
+  </span>
+  <span class="checkbox">
+    <input id="checkbox10" type="checkbox" disabled checked>
+    <label for="checkbox10">
+      This too
+    </label>
+  </span>
+</xmp>
+							</div>
+						</div>
+						<!-- end col -->
+
+					</div>
+					<!-- end row -->
+
+					<div class="row">
+						<div class="col-xl-4 col-md-6">
+							<div class="card-box">
+
+								<h4 class="header-title">Basic</h4>
+								<div class="row">
+									<div class="col-sm-6">
+										<span class="radio">
+											<input type="radio" id="radio1" checked>
+											<label for="radio1">
+												Default
+											</label>
+										</span>
+<xmp>
+  <span class="radio radio-single">                                                             
+    <input type="radio" id="singleRadio1">
+    <label></label>
+  </span>
+</xmp>
+									</div>
+									<!-- end col -->
+								</div>
+								<!-- end row -->
+
+								<p class="sub-header mt-3">Radios without label text <code>.radio-single</code></p>
+								<span class="radio radio-single">
+									<input type="radio" id="singleRadio1">
+									<label></label>
+								</span>
+<xmp>
+  <span class="radio radio-single">
+    <input type="radio" id="singleRadio1">
+    <label></label>
+  </span>
+</xmp>
+								<p class="sub-header mt-3">Inline radios</p>
+                <div class="form-radio-inline">
+                  <span class="radio">
+                    <input type="radio" id="inlineRadio1" checked>
+                    <label for="inlineRadio1"> Inline One </label>
+                  </span>
+                  <span class="radio">
+                    <input type="radio" id="inlineRadio2" checked>
+                    <label for="inlineRadio2"> Inline Two </label>
+                  </span>
+                </div>
+<xmp>
+  <div class="form-radio-inline">
+    <span class="radio">
+      <input type="radio" id="inlineRadio1" checked>
+      <label for="inlineRadio1"> Inline One </label>
+    </span>
+    <span class="radio">
+      <input type="radio" id="inlineRadio2" checked>
+      <label for="inlineRadio2"> Inline Two </label>
+    </span>
+  </div>
+</xmp>
+              </div>
+						</div>
+						<!-- end col -->
+
+						<div class="col-xl-4 col-md-6">
+							<div class="card-box">
+
+								<h4 class="header-title">Disabled</h4>
+
+								<p class="sub-header">
+									Disabled state also supported.
+								</p>
+
+								<span class="radio">
+									<input type="radio" id="radio51" disabled>
+									<label for="radio51">
+										Next
+									</label>
+								</span>
+								<span class="radio">
+									<input type="radio" id="radio61" checked disabled>
+									<label for="radio61">
+										One
+									</label>
+								</span>
+<xmp>
+  <span class="radio">
+    <input type="radio" id="radio51" disabled>
+    <label for="radio51">
+      Next
+    </label>
+  </span>
+  <span class="radio">
+    <input type="radio" id="radio61" checked disabled>
+    <label for="radio61">
+      One
+    </label>
+  </span>
+</xmp>
+							</div>
+						</div>
+						<!-- end col -->
+					</div>
+					<!-- end row -->
+
+				</div>
+				<!-- end container-fluid -->
+
+			</div>
+			<!-- end content -->
+
+			@@include('./partials/footer.html')
+
+		</div>
+
+		<!-- ============================================================== -->
+		<!-- End Page content -->
+		<!-- ============================================================== -->
+
+	</div>
+	<!-- END wrapper -->
+
+	<!-- Vendor js -->
+	<script src="assets/js/vendor.min.js"></script>
+
+	<!-- App js -->
+	<script src="assets/js/app.min.js"></script>
+
+</body>
+
+</html>

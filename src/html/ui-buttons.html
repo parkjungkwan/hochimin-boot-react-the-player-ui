@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Buttons | Zircos - Responsive Bootstrap 4 Admin Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="Responsive bootstrap 4 admin template" name="description" />
+    <meta content="Coderthemes" name="author" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- App favicon -->
+    <link rel="shortcut icon" href="assets/images/favicon.ico">
+    <!-- App css -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" id="bootstrap-stylesheet" />
+    <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/app.min.css" rel="stylesheet" type="text/css" id="app-stylesheet" />
+</head>
+<body>
+
+    <!-- Begin page -->
+    <div id="wrapper">
+
+        @@include('./partials/topbar.html')
+        
+        @@include('./partials/left-sidebar.html')
+
+        <!-- ============================================================== -->
+        <!-- Start Page Content here -->
+        <!-- ============================================================== -->
+
+        <div class="content-page">
+            <div class="content">
+
+                <!-- Start Content-->
+                <div class="container-fluid">
+
+                    <!-- start page title -->
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="page-title-box">
+                                <h4 class="page-title">Buttons</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end page title -->
+
+                    <div class="row">
+                        <div class="card-box">
+                            <h4 class="header-title">Default Buttons</h4>
+                            <p class="sub-header">Use the button classes on an <code>&lt;a&gt;</code>, <code>&lt;button&gt;</code>, or <code>&lt;input&gt;</code> element.</p>
+                            <div class="button-list">
+                                <button type="button" class="btn btn-primary waves-effect width-md">Primary</button>
+                            </div>
+<xmp style="margin-top: 10px">
+<button type="button" class="btn btn-primary waves-effect width-md">Primary</button>   
+</xmp>
+                        </div>
+                    </div>
+                    <!-- end row -->
+
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card-box">
+                                <h4 class="header-title">Button-Width</h4>
+                                <p class="sub-header">
+                                    Create buttons with minimum width by adding add <code>.width-xs</code>, <code>.width-sm</code>, <code>.width-md</code> or <code>.width-lg</code>.
+                                </p>
+
+                                <div class="button-list">
+                                    <button type="button" class="btn btn-primary waves-effect width-xs">Xs</button>
+                                    <button type="button" class="btn btn-primary waves-effect width-sm">Small</button>
+                                    <button type="button" class="btn btn-primary waves-effect width-md">Middle</button>
+                                    <button type="button" class="btn btn-primary waves-effect width-lg">Large</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="card-box">
+                                <h4 class="header-title">Button-Sizes</h4>
+                                <p class="sub-header">
+                                    Add <code>.btn-lg</code>, <code>.btn-sm</code>, or <code>.btn-xs</code> for additional sizes.
+                                </p>
+
+                                <div class="button-list">
+                                    <button class="btn btn-primary waves-effect btn-lg">Large button</button>
+                                    <button class="btn btn-primary waves-effect">Normal button</button>
+                                    <button class="btn btn-primary waves-effect btn-sm">Small button</button>
+                                    <button class="btn btn-primary waves-effect btn-xs">Extra small button</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="card-box">
+                                <h4 class="header-title">Button-Disabled</h4>
+                                <p class="sub-header">
+                                    Add the <code>disabled</code> attribute to <code>&lt;button&gt;</code> buttons.
+                                </p>
+
+                                <div class="button-list">
+                                    <button class="btn btn-primary disabled">Primary</button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end row -->
+
+                </div>
+                <!-- end container-fluid -->
+
+            </div>
+            <!-- end content -->
+
+            @@include('./partials/footer.html')
+
+        </div>
+
+        <!-- ============================================================== -->
+        <!-- End Page content -->
+        <!-- ============================================================== -->
+
+    </div>
+    <!-- END wrapper -->
+
+    <!-- Vendor js -->
+    <script src="assets/js/vendor.min.js"></script>
+
+    <!-- App js -->
+    <script src="assets/js/app.min.js"></script>
+
+</body>
+
+</html>
